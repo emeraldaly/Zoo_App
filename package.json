@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/emeraldaly/Zoo_App/issues"
   },
-  "homepage": "https://github.com/emeraldaly/Zoo_App#readme"
+  "homepage": "https://github.com/emeraldaly/Zoo_App#readme",
+  "dependencies": {
+    "mysql": "^2.10.2"
+  }
 }
