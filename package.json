@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/emeraldaly/Zoo_App#readme",
   "dependencies": {
-    "mysql": "^2.10.2"
+    "mysql": "^2.10.2",
+    "prompt": "^0.2.14"
   }
 }
