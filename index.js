@@ -74,7 +74,102 @@ var zoo = {
             currentScope.visit();
             currentScope.view(currentScope);
 
-            type: 
+            type: function() {
+                return typeof input_scope[0]();
+                console.log('Enter animal type to find out how many animals there are of that type');
+                prompt.get(['animal_type'], function(err, result, fields) {
+                    connection.query("The number of animals is" + animal_type);
+                    return to start.menu;
+                    currentScope.menu();
+                    currentScope.promptUser();
+            function care = input_scope;
+            var currentScope = input_scope;
+            console.log('Enter city name NY/SF');
+
+            prompt.get(['city_name'], function(err, result, fields) {
+                connection.query()) 
+                currentScope.visit();
+                currentScope.view(currentScope);
+
+             function animId = () {
+               return typeof input_scope[0]();
+               currentScope = input_scope;
+               console.log("Enter ID of animal to visit");
+               prompt.get(['animal_id'], function(err, result, fields) {
+                connection.query()
+                currentScope.visit();
+                currentScope.view(currentScope);
+                )
+
+               function name = () {
+               return typeof input_scope[0]();
+               currentScope = input_scope;
+               console.log("Enter name of animal to visit");
+               prompt.get(['name'], function(err, result, fields) {
+                connection.query()
+                currentScope.visit();
+                currentScope.view(currentScope);
+                )
+
+               function all = () {
+               return typeof input_scope[0]();
+               currentScope = input_scope;
+               console.log("The total animal count is" + all);
+               prompt.get(['all'], function(err, result, fields) {
+                connection.query()
+                currentScope.visit();
+                currentScope.view(currentScope);
+                )
+
+               update: function() {
+                return typeof input_scope[0]();
+                var currentScope = input_scope;
+                promt.get(['_', 'id', 'new_name', 'new_age', 'new_type', 'new_caretaker_id'], function(err, result, fields) {
+
+                    connection.query();
+                    currentScope.menu();
+                    currentScope.promptUser();
+                    )
+
+                adopt: function() {
+                    var currentScope = input_scope;
+                    prompt.get(['animal_id'], function(err, result, fields) {
+                        connection.query();
+                    currentScope.visit();
+                    currentScope.view(currentScope);
+
+                promptUser: function() {
+                    var self = this;
+                    prompt.get(['input'], function(err, result, fields) {
+                        if result.visit === "Q"
+                            self.exit();
+                        else if result.visit == "A"
+                            self.add(self);
+                        else if result.animId == "V"
+                            self.visit();
+                            self.view(self);
+                        else if result.name == "D"
+                            self.adopt(self);
+                        else console.log("Sorry, didn't get that, come again?");
+                exit:  function() {
+                    console.log("Thanks you for visiting us, goodbye");
+                    process.exit();
+
+                open: function() {
+                    this.welcome();
+                    this.menu();
+                    this.promptUser();
+
+                zoo.open();    
+                }    
+                }        
+                        )
+                }    )
+                }
+               } 
+             }          
+                }
+            }
 
         }  
 
